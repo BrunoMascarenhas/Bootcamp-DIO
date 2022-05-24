@@ -1,2 +1,2 @@
 # Bootcamp-DIO
-Repositório para envios dos desafios Bootcamp
+Repositório para envio dos desafios Bootcamp
