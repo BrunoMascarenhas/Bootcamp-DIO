@@ -20,6 +20,7 @@ function flipCard(){
 function cartasIguais(){
     if(primeiraCarta.dataset.card === segundaCarta.dataset.card){
         esconderCartas();
+        window.alert("Parabéns, você acertou!");
         return;
         }
     desvirarCartas(); 
