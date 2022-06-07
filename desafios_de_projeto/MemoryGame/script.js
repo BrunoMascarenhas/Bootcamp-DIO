@@ -19,8 +19,10 @@ function flipCard(){
 }
 function cartasIguais(){
     if(primeiraCarta.dataset.card === segundaCarta.dataset.card){
+        const clap = document.querySelector('audio');
+        clap.play();
         esconderCartas();
-        window.alert("Parabéns, você acertou!");
+        criarPopup();
         return;
         }
     desvirarCartas(); 
